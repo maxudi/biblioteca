@@ -89,12 +89,37 @@ renderHeader('Biblioteca E.E. Bueno Brandão');
             </div>
         </div>
         <div class="col-lg-5">
-            <div class="ratio ratio-4x3 rounded-4 overflow-hidden shadow-sm">
-                <iframe src="https://www.youtube.com/watch?v=POq3jYJoDsY" title="Biblioteca Escolar" allowfullscreen></iframe>
+            <div class="ratio ratio-4x3 rounded-4 overflow-hidden shadow-sm position-relative bg-dark">
+                <img id="videoThumbnail" src="https://img.youtube.com/vi/POq3jYJoDsY/maxresdefault.jpg"
+                     alt="Vídeo Biblioteca Escolar"
+                     class="position-absolute top-0 start-0 w-100 h-100"
+                     style="object-fit: cover;">
+                <button id="playVideoButton" type="button"
+                        class="btn btn-primary btn-lg rounded-circle position-absolute top-50 start-50 translate-middle shadow-lg"
+                        style="width: 80px; height: 80px;">
+                    <i class="bi bi-play-fill fs-2"></i>
+                </button>
+                <div id="videoFrameContainer" class="position-absolute top-0 start-0 w-100 h-100"></div>
             </div>
         </div>
     </div>
 </section>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const btn = document.getElementById('playVideoButton');
+    const container = document.getElementById('videoFrameContainer');
+    const thumb = document.getElementById('videoThumbnail');
+
+    if (btn && container) {
+        btn.addEventListener('click', function() {
+            container.innerHTML = '<iframe src="https://www.youtube.com/embed/POq3jYJoDsY?autoplay=1" title="Biblioteca Escolar" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="w-100 h-100 border-0"></iframe>';
+            btn.style.display = 'none';
+            thumb.style.display = 'none';
+        });
+    }
+});
+</script>
 
 <?php
 renderFooter();
