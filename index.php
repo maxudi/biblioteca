@@ -92,7 +92,7 @@ renderHeader('Biblioteca E.E. Bueno Brandão');
         </div>
         <div class="col-lg-5">
             <div class="ratio ratio-4x3 rounded-4 overflow-hidden shadow-sm">
-                <iframe src="https://www.youtube.com/embed/8V3O1sI6Zuc" title="Biblioteca Escolar" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/watch?v=POq3jYJoDsY" title="Biblioteca Escolar" allowfullscreen></iframe>
             </div>
         </div>
     </div>

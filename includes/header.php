@@ -49,9 +49,12 @@ function renderHeader($title = 'Biblioteca E.E. Bueno Brandão') {
     <body>
         <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom shadow-sm">
             <div class="container">
-                <a class="navbar-brand fw-bold" href="index.php">
-                    <i class="bi bi-book-half text-primary me-2"></i>
-                    Biblioteca E.E. Bueno Brandão
+                <a class="navbar-brand fw-bold d-flex align-items-center" href="index.php">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMvooX-JVIdWyWUuwTLgBWIDoc2pyWFjd06x_S3LqqSraBSX5QFKoqRV5JAtidRm5IOyGkP8r0g8z-fOOjQVqwpE4GnxesyspNGmTKUTQ57yC1XGCCQ6JQpQSnSWDrC-Joq61cg0GTjgU/s1600/logo_bueno_1.png" alt="Logo E.E. Bueno Brandão" style="width: 48px; height: 48px; object-fit: contain;" class="me-2">
+                    <div>
+                        <div>Biblioteca</div>
+                        <small class="text-muted" style="font-size: 0.85rem;">E.E. Bueno Brandão</small>
+                    </div>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                     <span class="navbar-toggler-icon"></span>
