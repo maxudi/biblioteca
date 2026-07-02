@@ -20,9 +20,7 @@ renderHeader('Biblioteca E.E. Bueno Brandão');
         </div>
         <div class="col-lg-5 mt-4 mt-lg-0 text-center">
             <div class="p-4 rounded-4" style="background: rgba(13,110,253,0.06);">
-                <img src="https://placehold.co/500x360/ffffff/004085?text=Biblioteca+E.E.+Bueno+Brand%C3%A3o" alt="Biblioteca" class="img-fluid rounded-4 shadow-sm">
-            </div>
-        </div>
+                        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMvooX-JVIdWyWUuwTLgBWIDoc2pyWFjd06x_S3LqqSraBSX5QFKoqRV5JAtidRm5IOyGkP8r0g8z-fOOjQVqwpE4GnxesyspNGmTKUTQ57yC1XGCCQ6JQpQSnSWDrC-Joq61cg0GTjgU/s1600/logo_bueno_1.png" alt="Logo E.E. Bueno Brandão" class="img-fluid rounded-4 shadow-sm" style="max-height: 320px; object-fit: contain;">
     </div>
 </section>
 
